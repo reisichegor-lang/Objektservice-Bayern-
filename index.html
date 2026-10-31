@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14251f">
+  <meta name="description" content="Objektservice Bayern – Unterstützung rund um Haus, Wohnung und Immobilie. Anfrage einfach online stellen.">
+  <title>Objektservice Bayern | Rund ums Haus</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#start" aria-label="Objektservice Bayern Startseite">
+      <span class="brand-mark">OB</span><span>OBJEKTSERVICE <b>BAYERN</b></span>
+    </a>
+    <nav><a href="#leistungen">Leistungen</a><a href="#ablauf">So funktioniert's</a><a class="nav-cta" href="#anfrage">Anfrage starten</a></nav>
+  </header>
+
+  <main id="start">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> ZUVERLÄSSIG · PRAKTISCH · PERSÖNLICH</p>
+        <h1>Rund ums Haus.<br><em>Einfach erledigt.</em></h1>
+        <p class="hero-text">Du hast etwas zu reparieren, zu montieren oder zu verschönern? Beschreibe kurz dein Vorhaben – wir machen daraus eine konkrete Anfrage.</p>
+        <a class="primary-btn" href="#anfrage">Jetzt Anfrage starten <span>↗</span></a>
+        <p class="micro-note">Unverbindlich anfragen · In wenigen Minuten erledigt</p>
+      </div>
+      <div class="hero-art" aria-label="Abstrakte Illustration eines Hauses">
+        <div class="sun"></div><div class="house">
+          <div class="roof"></div><div class="house-body"><div class="window"></div><div class="door"></div></div>
+        </div>
+        <div class="art-caption"><span class="caption-icon">✓</span><span><b>Dein Projekt im Blick</b><small>Von der ersten Idee zur Anfrage</small></span></div>
+      </div>
+    </section>
+
+    <section class="services section" id="leistungen">
+      <div class="section-heading"><p class="eyebrow">WOBEI WIR HELFEN</p><h2>Praktische Hilfe für<br><em>dein Zuhause.</em></h2><p>Wähle den passenden Bereich oder beschreibe einfach, was gemacht werden soll.</p></div>
+      <div class="service-grid">
+        <article class="service-card"><span class="service-number">01</span><div class="service-icon">⌂</div><h3>Objektservice</h3><p>Unterstützung bei laufenden Arbeiten rund um Haus und Immobilie.</p></article>
+        <article class="service-card"><span class="service-number">02</span><div class="service-icon">⌁</div><h3>Montage & Reparatur</h3><p>Möbelmontage, kleinere Reparaturen und praktische Handgriffe.</p></article>
+        <article class="service-card"><span class="service-number">03</span><div class="service-icon">▧</div><h3>Innenarbeiten</h3><p>Ausbesserungen, Streichen und ausgewählte Renovierungsarbeiten.</p></article>
+        <article class="service-card"><span class="service-number">04</span><div class="service-icon">＋</div><h3>Dein Vorhaben</h3><p>Du hast eine andere Aufgabe? Beschreibe sie einfach in deiner Anfrage.</p></article>
+      </div>
+      <p class="service-disclaimer">Welche Arbeiten im Einzelfall übernommen werden können, wird nach Beschreibung des Vorhabens abgestimmt.</p>
+    </section>
+
+    <section class="process section" id="ablauf">
+      <div><p class="eyebrow">GANZ EINFACH</p><h2>In drei Schritten<br><em>zur Anfrage.</em></h2></div>
+      <div class="steps">
+        <div class="step"><span>01</span><div><h3>Vorhaben beschreiben</h3><p>Was soll gemacht werden und wo befindet sich das Objekt?</p></div></div>
+        <div class="step"><span>02</span><div><h3>Details ergänzen</h3><p>Ein paar Angaben helfen dabei, den Aufwand besser einzuschätzen.</p></div></div>
+        <div class="step"><span>03</span><div><h3>Anfrage übermitteln</h3><p>Du erhältst eine übersichtliche Zusammenfassung zum Versenden.</p></div></div>
+      </div>
+    </section>
+
+    <section class="inquiry section" id="anfrage">
+      <div class="inquiry-intro"><p class="eyebrow">DEIN PROJEKT BEGINNT HIER</p><h2>Was können wir<br><em>für dich tun?</em></h2><p>Beantworte die kurzen Fragen. Am Ende kannst du deine Anfrage als Nachricht vorbereiten.</p><div class="trust-line">✦ Persönlich · unkompliziert · unverbindlich</div></div>
+      <div class="chat-panel">
+        <div class="chat-top"><div class="status-dot"></div><div><b>Projekt-Assistent</b><small>Wir sammeln die wichtigsten Angaben</small></div><span class="chat-tag">ONLINE-ANFRAGE</span></div>
+        <div class="chat-body" id="chat" aria-live="polite">
+          <div class="message bot">Hallo! 👋 Ich helfe dir dabei, dein Vorhaben kurz und übersichtlich zu beschreiben. Was möchtest du erledigen lassen?</div>
+          <div class="choices" id="choices">
+            <button data-value="Objektservice">Objektservice</button><button data-value="Montage oder Reparatur">Montage / Reparatur</button><button data-value="Innenarbeiten / Renovierung">Innenarbeiten</button><button data-value="Sonstiges">Etwas anderes</button>
+          </div>
+        </div>
+        <div class="chat-footer"><span>Deine Angaben werden hier im Browser zusammengestellt.</span><span>●</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#start"><span class="brand-mark">OB</span><span>OBJEKTSERVICE <b>BAYERN</b></span></a><p>Praktische Unterstützung rund um Haus und Immobilie.</p><small>Impressum und Datenschutzhinweise müssen vor Veröffentlichung ergänzt werden.</small></footer>
+  <script src="app.js"></script>
+</body>
+</html>
